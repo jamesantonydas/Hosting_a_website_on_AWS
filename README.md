@@ -7,3 +7,13 @@ The website will be hosted on apache servers running within the multiple EC2 ins
 <p align="center" width="40">
   <img src="https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/img/banner.png"/>
 </p>
+
+## Getting started
+
+To deploy the web page, Please make sure you have an AWS account, and the HashiCorp terraform installed on your computer.
+
+You can download the Terraform from the official source, https://www.terraform.io/
+
+## Setting up the AWS credentials
+
+
