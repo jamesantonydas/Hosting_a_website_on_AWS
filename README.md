@@ -19,7 +19,7 @@ You can download the Terraform from the official source, https://www.terraform.i
 First, It is important to set the AWS credentials, 
 There are two ways to do this,
 
-Method 1: Setting the environment variables by running the commands,
+Method 1: Setting the environment variables by running the commands, (preferably within a virtual environment of the project)
 
 ```
 export AWS_ACCESS_KEY_ID="your_access_key_here"
@@ -35,3 +35,38 @@ Provider “aws” {
  secret_key = "your_secret_key_here"
 }
 ```
+
+## Initializing the terraform
+
+To Initialize terraform, please run the following command,
+
+```
+terraform init
+```
+
+## Deploying the web page
+
+Generate the plan by running,
+
+
+```
+terraform plan
+```
+
+Deploy the webpage on the cloud by running,
+
+```
+terraform apply
+```
+
+## Terminating the website
+
+You can shutdown the webpage and terminate the running instances, simply run,
+
+```
+terraform destroy
+```
+
+
+
+
