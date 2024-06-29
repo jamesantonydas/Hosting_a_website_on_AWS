@@ -59,6 +59,10 @@ Deploy the webpage on the cloud by running,
 terraform apply
 ```
 
+<p align="center">
+  <img src="https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/img/apply.png"/>
+</p>
+
 ## Terminating the website
 
 You can shutdown the webpage and terminate the running instances, simply run,
