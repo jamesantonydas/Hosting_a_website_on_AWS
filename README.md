@@ -63,6 +63,8 @@ terraform apply
   <img src="https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/img/apply.png"/>
 </p>
 
+You can get the link to the website as an output.
+
 ## Terminating the website
 
 You can shutdown the webpage and terminate the running instances, simply run,
@@ -71,6 +73,10 @@ You can shutdown the webpage and terminate the running instances, simply run,
 terraform destroy
 ```
 
+## Network architecture diagram
 
+<p align="center">
+  <img src="https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/img/network.svg"/>
+</p>
 
-
+T
