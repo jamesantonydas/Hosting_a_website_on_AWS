@@ -1,13 +1,4 @@
 
-# Key pair - Set your key pair
-
-variable "key_pair" {
-
-  type    = string
-  default = "ec2_key_pair"
-  description = "Key pair from ec2 instance"
-}
-
 # Avilability zones
 
 variable "az_names" {

@@ -193,7 +193,6 @@ resource "aws_launch_template" "launch_template" {
   name          = "ec2-launch-template"
   image_id      = "ami-08a0d1e16fc3f61ea"
   instance_type = "t2.micro"
-  key_name = var.key_pair
 
   network_interfaces {
     device_index    = 0
