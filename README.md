@@ -1,7 +1,5 @@
 # Hosting a simple website on AWS
 
-(Under Development Phase)
-
 In this project, we'll be hosting a highly available, and scalable website on Amazon web services (AWS) cloud using the Infrastructure-as-code language, Terraform.
 
 The website will be hosted on apache servers running within the multiple EC2 instances, managed by auto scaling groups, over multiple availability zones. The incoming traffic will be distributed among them with a load balancer.
@@ -81,4 +79,4 @@ terraform destroy
   <img src="https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/img/network.svg"/>
 </p>
 
-T
+Please refer to the [Code documentation](https://github.com/jamesantonydas/Hosting_a_website_on_AWS/blob/main/docs/Antony-Das-James_9216076_Cloud%20Programming_P3_S_final_product.pdf) for more information.
